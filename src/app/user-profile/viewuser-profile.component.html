@@ -1,0 +1,108 @@
+<div class="container">
+
+  <div class="row">
+    <div class="col-2">
+      <img class="imgheader" src="assets/img/user-310807__340.png">
+      </div>
+      <div class="col-4"><h1 class="profilename">{{user.name}}</h1></div>
+      
+   
+  </div>
+  <div class="row">
+  <div class="container-fluid">
+  <nav class="navbar navbar-expand-sm bg-light">
+
+    <!-- Links -->
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="#">Profile</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Tasks</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Favourites</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Watches</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Drafts</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Network</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">settings</a>
+      <li class="nav-item">
+        <a class="nav-link" href="#">ComalaWorkflowTasks</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">OrgChart</a>
+      </li>
+    </ul>
+
+  </nav>
+
+
+</div></div>
+  
+  
+
+    <div class="row">
+      <div class="col-2">
+        <div class="mycontent-left">
+          <h5>Personal Space</h5>
+          <hr />
+          <h6>PROFILE</h6>
+          <h6>Picture</h6>
+          <hr />
+          <h6>EDIT PROFILE</h6>
+          <p>fetch your data from the LDAP server to update your profile data</p>
+          <button type="submit">Fetch profile data</button>
+
+        </div>
+
+      </div>
+      <div class="col-4">
+
+        <h4>Personal</h4>
+        <br />
+        <p>Fullname {{user.name}}</p>
+        <p>Email &nbsp;&nbsp;  {{user.email}}</p>
+
+        <h4>Contact information</h4>
+        <p>Phone&nbsp;&nbsp; {{user.phonenumber}}</p>
+
+        <h4>Individual information</h4>
+        <p>Position&nbsp;&nbsp; Public Relation Manager</p>
+        <!--<p>Supervisor &nbsp;&nbsp; <div id="supervisorname">MichaelMiller</div> </p>-->
+        <p>Website&nbsp;&nbsp;  <a> www.linchpin-intranet.com</a> </p>
+        <p>Department&nbsp;&nbsp;  Public Relations</p>
+        <h4>Location</h4>
+        <p>Branch &nbsp;&nbsp; Washington</p>
+        <p>Country &nbsp;&nbsp; USA</p>
+        <h4>Expertise</h4>
+        <p>Applications &nbsp;&nbsp;  Confluence,JIRA</p>
+        <p>Languages&nbsp;&nbsp;  German,English,Spanish</p>
+      </div>
+      <div class="col-6">
+        <img src="assets/img/user-310807__340.png" class="imgbody">
+
+        <button type="submit" class="btn btn-outline-primary" (click)="openModal()"><i class="fas fa-pencil-alt"></i>Edit</button>
+        <h2>Activity<br /> Recently Updated</h2>
+        <a href="#">The key to Enterprise Collaboration  software Adoption</a>
+        <p> updated jan 11 ,2016</p>
+        <a href="#">Coding with refugees</a>
+        <p> updated jan 11 ,2016</p>
+        <a href="#">Events in Washington</a>
+        <p> updated jan 06 ,2016</p>
+        <a href="#">KathrinHolmes</a>
+        <p> updated jan 11 ,2016</p>
+      </div>
+    </div>
+
+ 
+  
+
+</div>
